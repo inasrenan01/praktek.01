@@ -10,5 +10,19 @@ package praktek.pkg01;
  * @author Muhmmad Nasrullah
  */
 public class Semartphone {
+    String merek;
+    String tipe;
+    String warna;
+    String memory;
+    String harga;
     
+    void cetakinfo(){
+      System.out.println("merek :"+merek);
+      System.out.println("tipe  :"+tipe);
+      System.out.println("warna :"+warna);
+      System.out.println("memory:"+memory);
+      System.out.println("harga :"+harga);
+      
+ 
+    }
 }
