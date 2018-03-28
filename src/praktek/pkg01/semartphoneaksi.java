@@ -31,6 +31,8 @@ public class semartphoneaksi {
         samsung.harga="5,500.000";
         
         oppo.cetakinfo();
+        apple.cetakinfo();
+        samsung.cetakinfo();
       
         
     }
