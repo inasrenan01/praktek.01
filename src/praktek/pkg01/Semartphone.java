@@ -14,7 +14,7 @@ public class Semartphone {
     String tipe;
     String warna;
     String memory;
-    double harga;
+    String harga;
     
     void cetakinfo(){
       System.out.println("merek :"+merek);
