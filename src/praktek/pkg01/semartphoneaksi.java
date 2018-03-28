@@ -29,6 +29,8 @@ public class semartphoneaksi {
         samsung.warna="hitam";
         samsung.memory="4GB";
         samsung.harga="5,500.000";
+        
+        oppo.cetakinfo();
       
         
     }
