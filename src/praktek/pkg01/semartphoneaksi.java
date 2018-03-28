@@ -11,9 +11,25 @@ package praktek.pkg01;
  */
 public class semartphoneaksi {
     public static void main(String[] args) {
-        semartphone oppo = new semartphone();
+        Semartphone oppo = new Semartphone();
         semartphone apple = new semartphone();
         semartphone samsung = new semartphone();
+        
+        oppo.tipe="android";
+        oppo.warna="hitam";
+        oppo.memory="2GB";
+        oppo.harga="1,500.000";
+        
+        apple.tipe="ios";
+        apple.warna="putih";
+        apple.memory="8GB";
+        apple.harga="7,500.000";
+        
+        samsung.tipe="android";
+        samsung.warna="hitam";
+        samsung.memory="4GB";
+        samsung.harga="5,500.000";
+      
         
     }
 }
